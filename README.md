@@ -206,6 +206,26 @@ ag-policy-agent/
 
 ## Changelog
 
+### v2.1.0 — History Redesign, Upload Results & Headless Toggle
+
+#### New Features
+
+- **Tabbed History Table** — Corrections and Push history displayed in separate tabs for clearer navigation
+- **Detail Dialogs** — Click any history row to view full details including steps, field changes, and errors
+- **Copy Buttons** — One-click copy for policy numbers, error messages, and upload results
+- **NIID Upload Result Tracking** — Captures and displays actual upload result text from NIID after policy push
+- **Upload Progress Events** — Real-time `push:uploading` SSE events with elapsed time during NIID uploads
+- **Headless Mode Runtime Toggle** — Changing headless mode in settings automatically relaunches the browser without restarting the app
+- **Push History Persistence** — Push task logs now persisted to disk and merged across restarts
+
+#### Improvements
+
+- **A&G Spool Download Rewrite** — New popup-tab-based download flow with updated selectors matching the current A&G Spool page
+- **NIID Upload Flow Rewrite** — Handles Telerik RadUploadProgressArea, loading states, result panel parsing, and 5-minute timeout with periodic progress events
+- **Task Filtering** — Correction form only shows correction tasks; push tasks are separated into their own view
+- **Correction Logs API** — `/api/corrections/logs` now returns only correction-type logs; push logs served separately
+- **Session Control Layout** — Simplified from 4-column to 3-column grid
+
 ### v2.0.0 — Settings, Policy Push & Enhanced Sessions
 
 #### New Features

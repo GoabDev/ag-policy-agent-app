@@ -1,8 +1,8 @@
-version: 2.0.0
+version: 2.1.0
 files:
-  - url: ag-policy-agent-setup-2.0.0.exe
-    sha512: XH8bwWJtRqBfqpKw74D5vUSMV4ezt55q2D+qHERjc0ChJ3Tu/EanmU2zIAfUCJ2J9/Lv1SdCdY8icJRRkV9/PQ==
-    size: 93852784
-path: ag-policy-agent-setup-2.0.0.exe
-sha512: XH8bwWJtRqBfqpKw74D5vUSMV4ezt55q2D+qHERjc0ChJ3Tu/EanmU2zIAfUCJ2J9/Lv1SdCdY8icJRRkV9/PQ==
-releaseDate: '2026-02-14T11:38:42.369Z'
+  - url: ag-policy-agent-setup-2.1.0.exe
+    sha512: iSCp0cqu0kLCEc8SpS/ZVD5s4wTA75vaBAomlQ8mYAkXUXd1qmm58bD3wOBo2jNRkAYSEAT2VKW8G/Pxy7uytw==
+    size: 94101155
+path: ag-policy-agent-setup-2.1.0.exe
+sha512: iSCp0cqu0kLCEc8SpS/ZVD5s4wTA75vaBAomlQ8mYAkXUXd1qmm58bD3wOBo2jNRkAYSEAT2VKW8G/Pxy7uytw==
+releaseDate: '2026-02-15T21:57:34.646Z'
